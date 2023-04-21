@@ -94,7 +94,7 @@ int main() {
     printf("Enter an expression: ");
     fgets(expression, MAX_SIZE, stdin);
 
-    // Remove newline character at the end of the input
+   
     expression[strcspn(expression, "\n")] = '\0';
 
     int result = evaluate(expression);
