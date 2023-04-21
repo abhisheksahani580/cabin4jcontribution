@@ -22,7 +22,7 @@ msg.attach(MIMEImage(img_data,
                      name=os.path.basename("sample.jpg")))
 
 
-to = ["developerstudentcircuit@gmail.com"]
+to = ["sales@cabin4j.com"]
 
 smtp.sendmail(from_addr="sahaniabhishek2402@gmail.com",
               to_addrs=to, msg=msg.as_string())
