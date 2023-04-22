@@ -28,4 +28,4 @@ for expression in expressions:
 with open(output_file, "w") as file:
     file.writelines(solved_expressions)
 
-print("Arithmetic expressions solved and answers written to output file.")
+print("Arithmetic expressions solved and answers written to output file.") 
