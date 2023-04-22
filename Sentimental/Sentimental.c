@@ -55,6 +55,6 @@ int main() {
     char* intent = find_intent(sentence);
 
   
-    printf("The intent of the sentence is %s\n", intent);
+    printf("The intent of the sentence is %s\n", intent); 
     return 0;
 }
